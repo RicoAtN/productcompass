@@ -11360,10 +11360,10 @@ p {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border: none;
-    background-color: #495057;
+    background-color: #6c757d;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11371,7 +11371,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 2.5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11403,6 +11403,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
