@@ -1,9 +1,10 @@
 <!-- EJS Header -->
 
+<%- include("partials/header") -%>
+
 <head>
     <title>Product Compass</title>
 </head>
-<%- include("partials/header") -%>
 
 
 <!-- Main page -->
@@ -34,7 +35,7 @@
                 </span>
                 <h4 class="my-3">Advisory</h4>
                 <p class="text-muted">We analyse your situation and objectives, and provide structural advise in 
-                    helping you to achieve those objectives efficiently and effectively</p>
+                    helping you to achieve those objectives efficiently and effectively. </p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
@@ -97,6 +98,21 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-sm-6">
+                <!-- Portfolio item 6-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="/images/portfolio/6.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Pitch Deck</div>
+                        <div class="portfolio-caption-subheading text-muted">Improve your pitch deck for new investments</div>
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <!-- Portfolio item 3-->
                 <div class="portfolio-item">
@@ -139,21 +155,6 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Product Assessment</div>
                         <div class="portfolio-caption-subheading text-muted">Find opportunities to grow your product</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <!-- Portfolio item 6-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="/images/portfolio/6.jpg" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Agile Scrum</div>
-                        <div class="portfolio-caption-subheading text-muted">Work effectively to adapt changes</div>
                     </div>
                 </div>
             </div>
@@ -466,12 +467,13 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project details-->
-                            <h2 class="text-uppercase">Agile Scrum</h2>
-                            <p class="item-intro text-muted">Setting up a process to make your development and team more agile, ensuring your product evolves with the market.</p>
+                            <h2 class="text-uppercase">Pitch Deck</h2>
+                            <p class="item-intro text-muted">We help you to create a compelling pitch deck to get additional funding.</p>
                             <img class="img-fluid d-block mx-auto" src="/images/portfolio/6.jpg" alt="..." />
-                            <p>The ability to quickly adapt your product priorities to market development is crucial and working with Agile Scrum methodology helps with that. Every team is different and has their own
-                                way of interpretating the Agile Scrum methodology. In a product organisation, you'll be working cross-teams with different disciplines, ranging from designers to developers, and it requires clear communication to make it work.
-                                We help you through advising and coaching in finding your Agile way of working.
+                            <p>The most important element to get additional investment is to convince your investors of your company's potential and the best way
+                                to do that is through a compelling pitch deck. We help you to create such pitch deck, where the market opportunity is clearly described
+                                and that your product is able to utiltize that opportunity. 
+                                
                             </p>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-times me-1"></i>
@@ -486,3 +488,4 @@
 </div>
 <!-- EJS Footer -->
 <%- include("partials/footer") -%>
+<!-- Footer end -->
